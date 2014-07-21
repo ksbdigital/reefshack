@@ -8,6 +8,10 @@
 						<?php if ($page['header'] == Skimmers) { include(D_TEMPLATE.'/products.php'); } ?>
 						<?php if ($page['header'] == Pumps) { include(D_TEMPLATE.'/products.php'); } ?>
 						<?php if ($page['header'] == Lighting) { include(D_TEMPLATE.'/products.php'); } ?>
+						<?php if ($page['header'] == Triton) { include(D_TEMPLATE.'/products.php'); } ?>
+						<?php if ($page['header'] == Topup) { include(D_TEMPLATE.'/products.php'); } ?>
+						<?php if ($page['header'] == Dosers) { include(D_TEMPLATE.'/products.php'); } ?>
+						<?php if ($page['header'] == Reactors) { include(D_TEMPLATE.'/products.php'); } ?>
 						<?php if ($page['header'] == Livestock) { include(D_TEMPLATE.'/livestock.php'); } ?>
 						<?php if ($page['header'] == Gallery) { include(D_TEMPLATE.'/gallery.php'); } ?>
 						<?php if ($page['header'] == Contact) { include(D_TEMPLATE.'/contact.php'); } ?>
