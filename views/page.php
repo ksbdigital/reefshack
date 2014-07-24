@@ -13,6 +13,7 @@
 						<?php if ($page['header'] == Dosers) { include(D_TEMPLATE.'/products.php'); } ?>
 						<?php if ($page['header'] == Reactors) { include(D_TEMPLATE.'/products.php'); } ?>
 						<?php if ($page['header'] == Livestock) { include(D_TEMPLATE.'/livestock.php'); } ?>
+						<?php if ($page['header'] == Frags) { include(D_TEMPLATE.'/frags.php'); } ?>
 						<?php if ($page['header'] == Gallery) { include(D_TEMPLATE.'/gallery.php'); } ?>
 						<?php if ($page['header'] == Contact) { include(D_TEMPLATE.'/contact.php'); } ?>
 						
