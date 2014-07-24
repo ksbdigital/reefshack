@@ -13,7 +13,7 @@ function nav_main($dbc, $path) {
 		<?php if ($nav['slug'] == 'equipment'): ?>
 			<li <?php selected($path['call_parts'][0], $nav['slug'], 'class="dropdown"') ?>><a href="#" <?php echo 'class="dropdown-toggle" data-toggle="dropdown"' ?>><?php echo $nav['label']; ?><b class="caret"></b></a>
 				<ul class="dropdown-menu">
-		<?php 	$q1 = "SELECT DISTINCT category FROM products";
+		<?php 	$q1 = "SELECT DISTINCT category FROM products WHERE category != 'livestock'";
 				$r1 = mysqli_query($dbc,$q1);
 				while($cat = mysqli_fetch_array($r1)){ ?>
 		
