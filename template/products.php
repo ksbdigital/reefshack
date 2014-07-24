@@ -10,7 +10,7 @@ include('/config/connection.php');
 		##Check the page slug and then get the path array variable to use in the SQL query for products.
 		if(isset($_GET['slug']) != 1) {	$cond = $path['call_parts'][0]; } 
 					 
-		$q = "SELECT * FROM products WHERE category = '$cond' ORDER BY sub_category";
+		$q = "SELECT * FROM products WHERE category = '$cond' ORDER BY sub_category, name";
 		$r = mysqli_query($dbc,$q);
 		
 			while($row = mysqli_fetch_assoc($r))
