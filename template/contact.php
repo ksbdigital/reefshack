@@ -42,7 +42,7 @@ include('/config/connection.php');
 				  <tr>
 				    <td class="tg-031e">Sunday</td>
 				    <td class="tg-031e"></td>
-				    <td class="tg-031e">CLOSED</td>
+				    <td class="tg-031e">10am - 4pm</td>
 				  </tr>
 				  <tr>
 				    <td class="tg-031e">Monday</td>
@@ -52,22 +52,22 @@ include('/config/connection.php');
 				  <tr>
 				    <td class="tg-031e">Tuesday</td>
 				    <td class="tg-031e"></td>
-				    <td class="tg-031e">10am - 5pm</td>
+				    <td class="tg-031e">10am - 6pm</td>
 				  </tr>
 				  <tr>
 				    <td class="tg-031e">Wednesday</td>
 				    <td class="tg-031e">&nbsp</td>
-				    <td class="tg-031e">10am - 5pm</td>
+				    <td class="tg-031e">12pm - 8pm</td>
 				  </tr>
 				  <tr>
 				    <td class="tg-031e">Thursday</td>
 				    <td class="tg-031e"></td>
-				    <td class="tg-031e">10am - 5pm</td>
+				    <td class="tg-031e">10am - 6pm</td>
 				  </tr>
 				  <tr>
 				    <td class="tg-031e">Friday</td>
 				    <td class="tg-031e"></td>
-				    <td class="tg-031e">10am - 5pm</td>
+				    <td class="tg-031e">10am - 6pm</td>
 				  </tr>
 				  <tr>
 				    <td class="tg-031e">Saturday</td>
