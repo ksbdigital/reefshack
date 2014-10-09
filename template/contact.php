@@ -40,11 +40,6 @@ include('/config/connection.php');
   			<div class="panel-body">
 				<table class="tg">
 				  <tr>
-				    <td class="tg-031e">Sunday</td>
-				    <td class="tg-031e"></td>
-				    <td class="tg-031e">10am - 4pm</td>
-				  </tr>
-				  <tr>
 				    <td class="tg-031e">Monday</td>
 				    <td class="tg-031e"></td>
 				    <td class="tg-031e">CLOSED</td>
@@ -73,6 +68,11 @@ include('/config/connection.php');
 				    <td class="tg-031e">Saturday</td>
 				    <td class="tg-031e"></td>
 				    <td class="tg-031e">10am - 5pm</td>
+				  </tr>
+				  				  <tr>
+				    <td class="tg-031e">Sunday</td>
+				    <td class="tg-031e"></td>
+				    <td class="tg-031e">10am - 4pm</td>
 				  </tr>
 				</table>
   			</div>
